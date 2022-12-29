@@ -6,6 +6,9 @@ starsclass_model =  pickle.load(open('star_model.sav', 'rb'))
 
 #Judul Web
 st.title('Data Mining Klasifikasi Tipe Bintang')
+st.subheader('Nama : Ahmad Soleh')
+st.subheader('Nim : 191351109')
+
 
 Temperature = st.text_input('Masukan Nilai Suhu')
 
